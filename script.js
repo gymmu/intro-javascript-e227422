@@ -42,10 +42,15 @@ function writeText() {
 const inputElem = document.querySelector("#input")
 const outputElem = document.querySelector("#output")
 
-const inputValue = inputElem.Value
+const inputValue = inputElem.value
 const outputValue = outputElem.textContent
 
 const newValue = outputValue + "\n" + inputValue
 
 
 outputElem.textContent = newValue }
+
+function changecolor(){
+   const body = document.querySelector("body")
+  body.style.color = "pink"
+}
