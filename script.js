@@ -54,3 +54,9 @@ function changecolor(){
    const body = document.querySelector("body")
   body.style.color = "pink"
 }
+
+
+function deleteImage(){ const elemToDeleteImage = document.querySelector("#img-to-delete")
+elemToDeleteImage.imageText = "none"
+
+}
